@@ -299,7 +299,7 @@ gunfightArenaStroke.Parent = gunfightArena
 local uICorner5 = Instance.new("UICorner")
 uICorner5.Name = "UICorner"
 uICorner5.CornerRadius = UDim.new(0, 25)
-uICorner5.Parent = gunfightArena
+uICorner5.Parent = 
 
 local textLabel9 = Instance.new("TextLabel")
 textLabel9.Name = "TextLabel"
@@ -818,7 +818,7 @@ loadbtn.MouseButton1Click:Connect(function()
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/blackowl1231/Z3US/refs/heads/main/Games/Z3US%20Universal.lua"))()
 		end
 	else
-		textLabel6.Text = "Please select a script!"
+		textLabel6.Text = "Nigga pick a script!"
 		wait(2)
 		textLabel6.Text = "{Selected Script}"
 	end
